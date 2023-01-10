@@ -1,6 +1,3 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
 name: Deploy DocxToPdf
 
 on:
@@ -25,6 +22,9 @@ jobs:
           distribution: microsoft
           java-version: '17'
 
+      - name: Install MS Office
+        uses: microsoft/setup-msbuild@v1.0.0
+
       - name: Test DocxToPdf converter
         run: gradle test --tests DocxToPdfTest
 
@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: DocxToPdf
-          path: '${{ github.workspace }}/*.jar'
+          path: ./*.jar
 
   deploy:
     runs-on: windows-latest
