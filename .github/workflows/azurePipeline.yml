@@ -13,14 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Show files in workspace
-        run: ls
-
-      - name: Set up Java version
-        uses: actions/setup-java@v2
-        with:
-          distribution: microsoft
-          java-version: '17'
+      # - name: Set up Java version
+      #   uses: actions/setup-java@v2
+      #   with:
+      #     distribution: microsoft
+      #     java-version: '17'
 
       # - name: Install MS Office
 
@@ -49,6 +46,11 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: DocxToPdf
+
+      - name: Login to Azure
+        uses: azure/login@1
+        with:
+          ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
