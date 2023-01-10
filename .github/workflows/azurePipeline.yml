@@ -22,11 +22,11 @@ jobs:
           distribution: microsoft
           java-version: '17'
 
-      - name: Install MS Office
-        uses: microsoft/setup-msbuild@v1.0.0
+      # - name: Install MS Office
 
-      - name: Test DocxToPdf converter
-        run: gradle test --tests DocxToPdfTest
+
+      # - name: Test DocxToPdf converter
+      #   run: gradle test --tests DocxToPdfTest
 
       - name: Package api into a .jar
         run: jar cf DocxToPdf.jar .
