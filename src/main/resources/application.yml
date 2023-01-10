@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: profile-configurator-service
+  profiles:
+    active: dev
+server:
+  port: 0
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}

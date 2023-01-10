@@ -1,0 +1,165 @@
+{
+  "title": "Qualifikationsprofil",
+  "sections": [
+    {
+      "title": "Allgemein",
+      "identifier": "07b1719e-7d07-11ed-a1eb-0242ac120002",
+      "elements": [
+        {
+          "key": "Name",
+          "value": "",
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "identifier": "07b176c6-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Sprachen",
+          "value": [],
+          "type": "stringList",
+          "required": true,
+          "unique": true,
+          "identifier": "07b1877e-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Date Range",
+          "value": {
+            "from": "",
+            "to": ""
+          },
+          "type": "dateRange",
+          "required": true,
+          "unique": true,
+          "identifier": "07b189fe-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Einsatzbereich",
+          "value": "",
+          "type": "string",
+          "required": true,
+          "unique": true,
+          "identifier": "07b18b8e-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Verfügbarkeit",
+          "value": "",
+          "type": "date",
+          "required": true,
+          "unique": true,
+          "identifier": "07b18ce2-7d07-11ed-a1eb-0242ac120002"
+        }
+      ],
+      "showTitle": false
+    },
+    {
+      "title": "Fähigkeiten / Kenntnisse",
+      "identifier": "07b17446-7d07-11ed-a1eb-0242ac120002",
+      "elements": [
+        {
+          "key": "Programmiersprachen",
+          "value": [],
+          "type": "stringList",
+          "required": true,
+          "unique": true,
+          "identifier": "07b18e9a-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Tools",
+          "value": [],
+          "type": "stringList",
+          "required": true,
+          "unique": true,
+          "identifier": "07b19052-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Frameworks",
+          "value": [],
+          "type": "stringList",
+          "required": true,
+          "unique": true,
+          "identifier": "07b1a0a6-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Datenbanken",
+          "value": [],
+          "type": "stringList",
+          "required": true,
+          "unique": true,
+          "identifier": "07b1a204-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Betriebssysteme",
+          "value": [],
+          "type": "stringList",
+          "required": true,
+          "unique": true,
+          "identifier": "07b1a312-7d07-11ed-a1eb-0242ac120002"
+        }
+      ],
+      "showTitle": true
+    },
+    {
+      "title": "Berufserfahrung",
+      "identifier": "07b17590-7d07-11ed-a1eb-0242ac120002",
+      "elements": [
+        {
+          "key": {
+            "key": "",
+            "value": {},
+            "identifier": "07b1a420-7d07-11ed-a1eb-0242ac120002",
+            "required": true,
+            "unique": true,
+            "type": "dateRange"
+          },
+          "value": [
+            {
+              "key": "Beruf",
+              "value": "",
+              "identifier": "07b1a542-7d07-11ed-a1eb-0242ac120002",
+              "required": true,
+              "unique": true,
+              "type": "string"
+            },
+            {
+              "key": "Aufgaben",
+              "value": "",
+              "identifier": "07b1a83a-7d07-11ed-a1eb-0242ac120002",
+              "required": true,
+              "unique": true,
+              "type": "string"
+            },
+            {
+              "key": "Methoden / Technologien",
+              "identifier": "07b1b758-7d07-11ed-a1eb-0242ac120002",
+              "value": [],
+              "required": true,
+              "unique": true,
+              "type": "stringList"
+            }
+          ],
+          "type": "nested",
+          "identifier": "07b1b906-7d07-11ed-a1eb-0242ac120002",
+          "required": false,
+          "unique": false
+        }
+      ],
+      "showTitle": true
+    }
+  ],
+  "header": {
+    "logo": ""
+  },
+  "footer": {
+    "leftSection": [],
+    "middleSection": [],
+    "rightSection": []
+  },
+  "style": {
+    "fontType": "Tahoma",
+    "fontSize": 11,
+    "headingSize": 14,
+    "primaryColor": "7F7F7F",
+    "secondaryColor": "ED7D31",
+    "boldKeys": true
+  }
+}

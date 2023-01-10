@@ -1,0 +1,183 @@
+{
+  "title": "Qualifikationsprofil",
+  "sections": [
+    {
+      "title": "Allgemein",
+      "identifier": "07b1719e-7d07-11ed-a1eb-0242ac120002",
+      "elements": [
+        {
+          "key": "Name",
+          "value": "Max Mustermann",
+          "type": "string",
+          "required": true,
+          "identifier": "07b176c6-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Sprachen",
+          "value": ["Deutsch", "Englisch"],
+          "type": "stringList",
+          "required": true,
+          "identifier": "07b1877e-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Date Range",
+          "value": {
+            "from": "2022-05-05",
+            "to": "2022-06-06"
+          },
+          "type": "dateRange",
+          "required": true,
+          "identifier": "07b189fe-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Einsatzbereich",
+          "value": "Softwareentwicklung",
+          "type": "string",
+          "required": true,
+          "identifier": "07b18b8e-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Verfügbarkeit",
+          "value": "2022-12-11",
+          "type": "date",
+          "required": true,
+          "identifier": "07b18ce2-7d07-11ed-a1eb-0242ac120002"
+        }
+      ],
+      "required": true,
+      "showTitle": false
+    },
+    {
+      "title": "Fähigkeiten / Kenntnisse",
+      "identifier": "07b17446-7d07-11ed-a1eb-0242ac120002",
+      "elements": [
+        {
+          "key": "Programmiersprachen",
+          "value": ["Java", "Python", "C#"],
+          "type": "stringList",
+          "required": true,
+          "identifier": "07b18e9a-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Tools",
+          "value": ["Jira", "Git"],
+          "type": "stringList",
+          "required": true,
+          "identifier": "07b19052-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Frameworks",
+          "value": ["Angular", "Spring", "React"],
+          "type": "stringList",
+          "required": true,
+          "identifier": "07b1a0a6-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Datenbanken",
+          "value": ["MySQL", "Mongo", "PostgeSQL"],
+          "type": "stringList",
+          "required": true,
+          "identifier": "07b1a204-7d07-11ed-a1eb-0242ac120002"
+        },
+        {
+          "key": "Betriebssysteme",
+          "value": ["Windows", "Linux"],
+          "type": "stringList",
+          "required": true,
+          "identifier": "07b1a312-7d07-11ed-a1eb-0242ac120002"
+        }
+      ],
+      "required": true,
+      "showTitle": true
+    },
+    {
+      "title": "Berufserfahrung",
+      "identifier": "07b17590-7d07-11ed-a1eb-0242ac120002",
+      "elements": [
+        {
+          "key": {
+            "key": "",
+            "identifier": "07b1a420-7d07-11ed-a1eb-0242ac120002",
+            "value": {
+              "from": "2021-01-01",
+              "to": "2021-05-08"
+            },
+            "type": "dateRange"
+          },
+          "value": [
+            {
+              "key": "Beruf",
+              "identifier": "07b1a542-7d07-11ed-a1eb-0242ac120002",
+              "value": "Software Entwickler",
+              "type": "string"
+            },
+            {
+              "key": "Aufgaben",
+              "identifier": "07b1a83a-7d07-11ed-a1eb-0242ac120002",
+              "value": "Entwickeln von REST Schnittstellen",
+              "type": "string"
+            },
+            {
+              "key": "Methoden / Technologien",
+              "identifier": "07b1b758-7d07-11ed-a1eb-0242ac120002",
+              "value": ["Java", "Spring Boot", "Scrum"],
+              "type": "stringList"
+            }
+          ],
+          "type": "nested",
+          "identifier": "07b1b906-7d07-11ed-a1eb-0242ac120002",
+          "required": false,
+          "unique": false
+        },
+        {
+          "key": {
+            "key": "",
+            "identifier": "07b1a420-7d07-11ed-a1eb-0242ac120002",
+            "value": {
+              "from": "2022-01-01",
+              "to": "2022-05-08"
+            },
+            "type": "dateRange"
+          },
+          "value": [
+            {
+              "key": "Beruf",
+              "identifier": "07b1a542-7d07-11ed-a1eb-0242ac120002",
+              "value": "Scrum Master",
+              "type": "string"
+            },
+            {
+              "key": "Aufgaben",
+              "identifier": "07b1a83a-7d07-11ed-a1eb-0242ac120002",
+              "value": "Beaufsichtigen eines SCRUM Teams",
+              "type": "string"
+            },
+            {
+              "key": "Methoden / Technologien",
+              "identifier": "07b1b758-7d07-11ed-a1eb-0242ac120002",
+              "value": ["Jira", "Scrum"],
+              "type": "stringList"
+            }
+          ],
+          "type": "nested",
+          "identifier": "07b1b906-7d07-11ed-a1eb-0242ac120002",
+          "required": false,
+          "unique": false
+        }
+      ],
+      "required": false,
+      "showTitle": true
+    }
+  ],
+  "header": {
+    "logo": ""
+  },
+  "style": {
+    "fontType": "Tahoma",
+    "fontSize": 11,
+    "headingSize": 14,
+    "primaryColor": "#7F7F7F",
+    "secondaryColor": "#ED7D31",
+    "boldKeys": true
+  }
+}

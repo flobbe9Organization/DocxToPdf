@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: devuser
+      password: devpass
+      database: profile-configurator
+      port: 27017
+      host: localhost
