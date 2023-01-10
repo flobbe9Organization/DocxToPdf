@@ -47,10 +47,10 @@ jobs:
         with:
           name: DocxToPdf
 
-      - name: Login to Azure
-        uses: Azure/login@v1
-        with:
-          ${{ secrets.AZURE_CREDENTIALS }}
+      # - name: Login to Azure
+      #   uses: Azure/login@v1
+      #   with:
+      #     ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
